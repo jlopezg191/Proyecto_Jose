@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Api_GOT"
+             x:Class="Api_GOT.MainPage"
+             x:Name="Root">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal" />
+
+        <ListView HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                  BindingContext="{Binding Source={x:Reference Root} }"
+                  ItemsSource="{Binding Path=Items}"
+                  IsRefreshing="{Binding IsBusy}"
+                  IsPullToRefreshEnabled="true"
+                  RefreshCommand="{Binding AgregarComando}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Margin="5" Text="{Binding name}" />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
