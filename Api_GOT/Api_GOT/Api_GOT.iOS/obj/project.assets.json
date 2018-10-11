@@ -1236,11 +1236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\Api_GOT.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\Api_GOT.iOS.csproj",
       "projectName": "Api_GOT.iOS",
-      "projectPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\Api_GOT.iOS.csproj",
+      "projectPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\Api_GOT.iOS.csproj",
       "packagesPath": "C:\\Users\\JoseAndres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\obj\\",
+      "outputPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

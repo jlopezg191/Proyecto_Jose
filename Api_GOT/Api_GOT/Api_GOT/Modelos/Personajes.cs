@@ -4,12 +4,19 @@ using System.Text;
 
 namespace Api_GOT.Modelos
 {
-    class Personajes
+    public class Personajes
     {
         public string name { get; set; }
 
         public string house { get; set; }
 
+        public string imageLink { get; set; }
+
         public double dateOfBirth { get; set; }
+
+        public bool male { get; set; }
+
     }
+
+
 }

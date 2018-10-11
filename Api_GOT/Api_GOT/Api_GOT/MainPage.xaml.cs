@@ -11,9 +11,27 @@ using Newtonsoft.Json;
 
 namespace Api_GOT
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         public ObservableCollection<object> Items { get; set; } = new ObservableCollection<object> { 1, "2", true, false };
+
+        private Personajes _selectedPersonaje { get; set; }
+        public Personajes SelectedPersonaje {
+            get { return _selectedPersonaje; }
+            set
+            {
+                if (_selectedPersonaje != value)
+                {
+                    _selectedPersonaje = value;
+                    HandleSelectedItem();
+                }
+            }
+        }
+
+        private void HandleSelectedItem()
+        {
+            DisplayAlert("SelectedItem", "Name: " + SelectedPersonaje.name, "Ok");
+        }
 
         public MainPage()
 		{

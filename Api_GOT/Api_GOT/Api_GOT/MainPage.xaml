@@ -13,6 +13,7 @@
                   ItemsSource="{Binding Path=Items}"
                   IsRefreshing="{Binding IsBusy}"
                   IsPullToRefreshEnabled="true"
+                  SelectedItem="{Binding SelectedPersonaje}"
                   RefreshCommand="{Binding AgregarComando}">
             <ListView.ItemTemplate>
                 <DataTemplate>

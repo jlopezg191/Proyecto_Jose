@@ -1154,11 +1154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
+      "projectUniqueName": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
       "projectName": "Api_GOT.Android",
-      "projectPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
+      "projectPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
       "packagesPath": "C:\\Users\\JoseAndres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\obj\\",
+      "outputPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
