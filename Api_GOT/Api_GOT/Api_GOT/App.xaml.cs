@@ -8,12 +8,14 @@ namespace Api_GOT
 	public partial class App : Application
 	{
         public const string WebServiceUrl = "https://api.got.show/api/";
+        public const string WebServiceUrlDetail = "https://api.got.show/api/characters/";
 
         public App ()
 		{
 			InitializeComponent();
 
             var mainPage = new MainPage() { Title = "Game of Thrones" };
+            var detailPage = new MainPage() { Title = "Detail" };
 
             MainPage = new NavigationPage(mainPage)
             {

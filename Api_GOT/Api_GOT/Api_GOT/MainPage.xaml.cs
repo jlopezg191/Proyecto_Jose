@@ -30,13 +30,17 @@ namespace Api_GOT
 
         private void HandleSelectedItem()
         {
-            DisplayAlert("SelectedItem", "Name: " + SelectedPersonaje.name, "Ok");
+            //DisplayAlert("SelectedItem", "Name: " + SelectedPersonaje.name, "Ok");
+            Navigation.PushAsync(new DetailPage(SelectedPersonaje.name));
         }
 
         public MainPage()
 		{
 			InitializeComponent();
-		}
+            var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+            player.Load("got_song.mp3");
+            player.Play();
+        }
 
         protected async override void OnAppearing()
         {
@@ -81,7 +85,7 @@ namespace Api_GOT
                 cliente.BaseAddress = new Uri(App.WebServiceUrl);
                 var json = await cliente.GetStringAsync("characters/");
 
-                Console.WriteLine(json);
+                //Console.WriteLine(json);
 
                 var resultado = JsonConvert.DeserializeObject<Personajes[]>(json);
 

@@ -8,3 +8,15 @@ C:\Users\JoseAndres\Desktop\Proyecto_Xamarin\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPh
 C:\Users\JoseAndres\Desktop\Proyecto_Xamarin\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
 C:\Users\JoseAndres\Desktop\Proyecto_Xamarin\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\MainPage.xaml.g.cs
 C:\Users\JoseAndres\Desktop\Proyecto_Xamarin\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\Api_GOT.iOS.csproj.CoreCompileInputs.cache
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\Api_GOT.iOS.csprojAssemblyReference.cache
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\MainPage.xaml.g.cs
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\DetailPage.xaml.g.cs
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\Api_GOT.iOS.csproj.CoreCompileInputs.cache
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.iOS\obj\iPhoneSimulator\Debug\ImagePage.xaml.g.cs

@@ -13,8 +13,8 @@
 namespace Api_GOT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT\\MainPage.xam" +
-        "l")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT\\MainPa" +
+        "ge.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

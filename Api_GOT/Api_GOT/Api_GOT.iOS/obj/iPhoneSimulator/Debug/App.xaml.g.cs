@@ -13,7 +13,8 @@
 namespace Api_GOT {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT\\App.xa" +
+        "ml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

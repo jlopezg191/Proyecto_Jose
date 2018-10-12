@@ -12,7 +12,7 @@ namespace Api_GOT.Modelos
 
         public string imageLink { get; set; }
 
-        public double dateOfBirth { get; set; }
+        public int dateOfBirth { get; set; }
 
         public bool male { get; set; }
 

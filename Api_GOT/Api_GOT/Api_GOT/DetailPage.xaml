@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Api_GOT.DetailPage"
+             x:Name="Root">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Detail" TextColor="White" FontSize="Large" Grid.Row="0" />
+                <Label FontSize="Medium" TextColor="White" Text="Name" Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="NameG" TextColor="White" FontSize="Medium"  Grid.Row="1" Grid.Column="1" />
+                <Label FontSize="Medium" TextColor="White" Text="House" Grid.Row="2" Grid.Column="0" />
+                <Label x:Name="HouseG" TextColor="White" FontSize="Medium" Grid.Row="2" Grid.Column="1" />
+                <Label FontSize="Medium" TextColor="White" Text="Date of Birth" Grid.Row="3" Grid.Column="0" />
+                <Label x:Name="DateBirthG" TextColor="White" FontSize="Medium" Grid.Row="3" Grid.Column="1" />
+                <Label FontSize="Medium" TextColor="White" Text="Male" Grid.Row="4" Grid.Column="0" />
+                <Label x:Name="MaleG" TextColor="White" FontSize="Medium" Grid.Row="4" Grid.Column="1" />
+                <Button x:Name="B_Imagen" Text="Imagen" BackgroundColor="White" TextColor="DarkRed" Grid.Row="5" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

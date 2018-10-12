@@ -6,6 +6,8 @@ C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Andro
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Plugin.Connectivity.dll
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Plugin.SimpleAudioPlayer.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Net.Http.dll
@@ -68,5 +70,6 @@ C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Andro
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.IO.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\Mono.Security.dll
 C:\Users\JoseAndres\Documents\GitHub\Proyecto_Jose\Api_GOT\Api_GOT\Api_GOT.Android\obj\Debug\android\assets\System.Net.Primitives.dll
