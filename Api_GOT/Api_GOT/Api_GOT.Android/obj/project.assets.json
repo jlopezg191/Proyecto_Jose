@@ -77,6 +77,17 @@
           "lib/MonoAndroid10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.SimpleAudioPlayer/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -729,6 +740,43 @@
         "xam.plugin.connectivity.nuspec"
       ]
     },
+    "Xam.Plugin.SimpleAudioPlayer/1.1.0": {
+      "sha512": "fLcJ9SKPAzUaNVP+UCV4haLMXMJWI6g5qApT6fjBKbMwdP4OmEA3R+UVKIIgrnzvQ3O3uVie8DO0mxBXAop3xA==",
+      "type": "package",
+      "path": "xam.plugin.simpleaudioplayer/1.1.0",
+      "files": [
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
+        "xam.plugin.simpleaudioplayer.1.1.0.nupkg.sha512",
+        "xam.plugin.simpleaudioplayer.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "GIz8xfnOLJH5yWC0ocIR80hJlYQ2Lz2HQKjW2/vi0rxYXR6nF/D4aOFlTx1PIA6A9FLgFRrajSJyCfx460qycw==",
       "type": "package",
@@ -1140,6 +1188,7 @@
       "Newtonsoft.Json >= 11.0.2",
       "System.Net.Http >= 4.3.3",
       "Xam.Plugin.Connectivity >= 3.2.0",
+      "Xam.Plugin.SimpleAudioPlayer >= 1.1.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -1154,11 +1203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
+      "projectUniqueName": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
       "projectName": "Api_GOT.Android",
-      "projectPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
+      "projectPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\Api_GOT.Android.csproj",
       "packagesPath": "C:\\Users\\JoseAndres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseAndres\\Desktop\\Proyecto_Xamarin\\Api_GOT\\Api_GOT\\Api_GOT.Android\\obj\\",
+      "outputPath": "C:\\Users\\JoseAndres\\Documents\\GitHub\\Proyecto_Jose\\Api_GOT\\Api_GOT\\Api_GOT.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1196,6 +1245,10 @@
           "Xam.Plugin.Connectivity": {
             "target": "Package",
             "version": "[3.2.0, )"
+          },
+          "Xam.Plugin.SimpleAudioPlayer": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",

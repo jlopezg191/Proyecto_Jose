@@ -5,7 +5,7 @@
              x:Class="Api_GOT.MainPage"
              x:Name="Root">
 
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical" BackgroundColor="Black">
         <StackLayout Orientation="Horizontal" />
 
         <ListView HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
@@ -13,11 +13,12 @@
                   ItemsSource="{Binding Path=Items}"
                   IsRefreshing="{Binding IsBusy}"
                   IsPullToRefreshEnabled="true"
+                  SelectedItem="{Binding SelectedPersonaje}"
                   RefreshCommand="{Binding AgregarComando}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Label Margin="5" Text="{Binding name}" />
+                        <Label Margin="5" TextColor="White" Text="{Binding name}" />
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

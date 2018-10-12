@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Api_GOT.ImagePage"
+             x:Name="Root">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Image x:Name="Image_Got" VerticalOptions="Fill" HorizontalOptions="Fill"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

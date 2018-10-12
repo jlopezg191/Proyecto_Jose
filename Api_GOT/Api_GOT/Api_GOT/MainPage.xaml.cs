@@ -11,14 +11,36 @@ using Newtonsoft.Json;
 
 namespace Api_GOT
 {
-	public partial class MainPage : ContentPage
-	{
+    public partial class MainPage : ContentPage
+    {
         public ObservableCollection<object> Items { get; set; } = new ObservableCollection<object> { 1, "2", true, false };
+
+        private Personajes _selectedPersonaje { get; set; }
+        public Personajes SelectedPersonaje {
+            get { return _selectedPersonaje; }
+            set
+            {
+                if (_selectedPersonaje != value)
+                {
+                    _selectedPersonaje = value;
+                    HandleSelectedItem();
+                }
+            }
+        }
+
+        private void HandleSelectedItem()
+        {
+            //DisplayAlert("SelectedItem", "Name: " + SelectedPersonaje.name, "Ok");
+            Navigation.PushAsync(new DetailPage(SelectedPersonaje.name));
+        }
 
         public MainPage()
 		{
 			InitializeComponent();
-		}
+            //var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+            //player.Load("got_song.mp3");
+            //player.Play();
+        }
 
         protected async override void OnAppearing()
         {
@@ -63,7 +85,7 @@ namespace Api_GOT
                 cliente.BaseAddress = new Uri(App.WebServiceUrl);
                 var json = await cliente.GetStringAsync("characters/");
 
-                Console.WriteLine(json);
+                //Console.WriteLine(json);
 
                 var resultado = JsonConvert.DeserializeObject<Personajes[]>(json);
 
