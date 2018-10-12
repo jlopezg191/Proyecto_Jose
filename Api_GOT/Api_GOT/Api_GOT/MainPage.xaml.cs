@@ -16,7 +16,8 @@ namespace Api_GOT
         public ObservableCollection<object> Items { get; set; } = new ObservableCollection<object> { 1, "2", true, false };
 
         private Personajes _selectedPersonaje { get; set; }
-        public Personajes SelectedPersonaje {
+        public Personajes SelectedPersonaje
+        {
             get { return _selectedPersonaje; }
             set
             {
@@ -35,17 +36,15 @@ namespace Api_GOT
         }
 
         public MainPage()
-		{
-			InitializeComponent();
-            //var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
-            //player.Load("got_song.mp3");
-            //player.Play();
+        {
+            InitializeComponent();
+
         }
 
         protected async override void OnAppearing()
         {
             base.OnAppearing();
-
+            
             await CargarItems();
         }
 

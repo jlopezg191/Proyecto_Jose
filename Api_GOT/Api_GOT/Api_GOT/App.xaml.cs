@@ -15,7 +15,16 @@ namespace Api_GOT
 			InitializeComponent();
 
             var mainPage = new MainPage() { Title = "Game of Thrones" };
-            var detailPage = new MainPage() { Title = "Detail" };
+            var player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
+            player.Load("got_song.mp3");
+            player.Play();
+
+            Device.StartTimer(TimeSpan.FromSeconds(89), () =>
+            {
+                player.Play();
+
+                return true; // True = Repeat again, False = Stop the timer
+            });
 
             MainPage = new NavigationPage(mainPage)
             {

@@ -7,7 +7,9 @@
 
     <StackLayout Orientation="Vertical" BackgroundColor="Black">
         <StackLayout Orientation="Horizontal" />
-
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="https://www.contrapuntobbdo.es/wp-content/uploads/2016/09/Game-of-Thrones-Season-6-HEADER.jpg" VerticalOptions="Fill" HorizontalOptions="Fill"/>
+        </Grid>
         <ListView HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
                   BindingContext="{Binding Source={x:Reference Root} }"
                   ItemsSource="{Binding Path=Items}"
